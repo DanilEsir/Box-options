@@ -1,0 +1,101 @@
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+h1, h2 {
+    font-family: 'Dosis', sans-serif;
+}
+
+ol {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    border: 1px solid gray;
+    width: 60%;
+    padding: 10px 15px;
+    display: inline-block;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 30px;
+    left: 10%;
+    
+}
+.second-button {
+    background-color: red;
+    color: white;
+}
+
+.box-options {
+    text-align: center;
+    padding: 10% 0 10% 0;
+}
+
+.options__header {
+    width: 40%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.options__list {
+    width: 60%;
+    margin: auto;
+}
+
+.options__list h2 {
+    background-color: darkviolet;
+    padding: 20px;
+    color: white;
+}
+
+.options__list>li {
+    display: inline-block;
+    width: 30%;
+    padding: 5% 0;
+    margin-right: 10px;
+    border: 1px solid #e5e5e5;
+    vertical-align: top;
+    height: 420px;
+    position: relative;
+}
+.options__list>li:nth-child(2) {
+    border: 3px solid red;
+}
+.options__list>li:nth-child(2n+1):hover {
+    display: inline-block;
+    width: 30%;
+    padding: 5% 0;
+    border: 1px solid white;
+    box-shadow: -5px 5px 10px lightgray;
+    
+}
+
+.option__list__options li {
+    border-top: 1px solid #e5e5e5;
+    padding: 10px;
+    font-size: smaller;
+}
+
+.box-price {
+    position: absolute;
+    box-shadow: 0px -8px 6px rgba(0,0,0,0.4);
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    vertical-align: middle;
+    font-weight: 500;
+    
+    top: -20px;
+    right: 33%;
+    line-height: 50px;
+    background-color: #fff;
+}
+
+.family-box {
+    color: red;
+}
